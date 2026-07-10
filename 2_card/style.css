@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-title{
+    border-bottom: 2px solid orange;
+}
+.card-title1{
+    color:#1668ca;
+}

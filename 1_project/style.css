@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size :40px;
+    text-align:center;
+    color : #8B0000;
+}
+
+p{
+    font-size: 18px;
+    color:#555;
+    line-height: 1.8;
+}
+.hotel
+{
+    text-align: center;
+    font-size:  30px;
+    color:#525823;
+    margin: 30px;
+}
+
+.btn{
+    box-shadow:0 4px 1.8rem  #b22222 ;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+    
+}
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.container{
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-fluid{
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.img-fluid:hover{
+       transform:scale(1.1);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: #8B0000;
+    align-items: center;
+}
+.links{
+    list-style: none;
+    gap:30px;
+    display: flex;
+}
+
+.links a{
+    color:white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color:#FFD700;
+}
+ .whatsapp {
+     position: fixed; 
+     right: 20px; 
+     bottom: 20px; 
+     background: #25D366; 
+     color: white; 
+     padding: 15px; 
+     border: none; 
+     border-radius: 50%;
+     display: flex;
+     width: 60px;
+     height: 60px;
+     border-radius: 15px;
+}
+
+.whatsapp:hover {
+    background: darkgreen; 
+}
